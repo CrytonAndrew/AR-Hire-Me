@@ -16,11 +16,20 @@
 		431694EC24D4A46D00674FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431694EA24D4A46D00674FA2 /* LaunchScreen.storyboard */; };
 		431694F724D4A8EB00674FA2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431694F624D4A8EB00674FA2 /* RegisterViewController.swift */; };
 		431694F924D4A90B00674FA2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431694F824D4A90B00674FA2 /* LoginViewController.swift */; };
-		431694FB24D4A95300674FA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431694FA24D4A95300674FA2 /* HomeViewController.swift */; };
+		431694FB24D4A95300674FA2 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431694FA24D4A95300674FA2 /* DiscoverViewController.swift */; };
 		431694FD24D4A98B00674FA2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431694FC24D4A98B00674FA2 /* MainTabBarController.swift */; };
 		431694FF24D4AA6200674FA2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431694FE24D4AA6200674FA2 /* Utilities.swift */; };
 		4316950224D4AF0F00674FA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4316950124D4AF0F00674FA2 /* GoogleService-Info.plist */; };
 		4316950524D4B10900674FA2 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4316950424D4B10900674FA2 /* video.mp4 */; };
+		43FFAC3624DAC34F00C8DC11 /* discover.json in Resources */ = {isa = PBXBuildFile; fileRef = 43FFAC3524DAC34F00C8DC11 /* discover.json */; };
+		43FFAC3824DAC40C00C8DC11 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC3724DAC40C00C8DC11 /* SectionHeader.swift */; };
+		43FFAC3A24DAC44300C8DC11 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC3924DAC44300C8DC11 /* Section.swift */; };
+		43FFAC3C24DAC48B00C8DC11 /* SmallTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC3B24DAC48B00C8DC11 /* SmallTableCell.swift */; };
+		43FFAC3E24DAC4C600C8DC11 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC3D24DAC4C600C8DC11 /* Person.swift */; };
+		43FFAC4024DAC4ED00C8DC11 /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC3F24DAC4ED00C8DC11 /* FeaturedCell.swift */; };
+		43FFAC4224DAC53E00C8DC11 /* MediumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC4124DAC53E00C8DC11 /* MediumTableCell.swift */; };
+		43FFAC4424DAC56E00C8DC11 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC4324DAC56E00C8DC11 /* SelfConfiguringCell.swift */; };
+		43FFAC4624DAC59000C8DC11 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAC4524DAC59000C8DC11 /* Bundle-Decodable.swift */; };
 		C12A05C9239BD5FFEFAD9E75 /* Pods_AR_HIreApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2319796CDD32066198C8B5C /* Pods_AR_HIreApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,11 +45,20 @@
 		431694ED24D4A46D00674FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		431694F624D4A8EB00674FA2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		431694F824D4A90B00674FA2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		431694FA24D4A95300674FA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		431694FA24D4A95300674FA2 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		431694FC24D4A98B00674FA2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		431694FE24D4AA6200674FA2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		4316950124D4AF0F00674FA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4316950424D4B10900674FA2 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		43FFAC3524DAC34F00C8DC11 /* discover.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = discover.json; sourceTree = "<group>"; };
+		43FFAC3724DAC40C00C8DC11 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		43FFAC3924DAC44300C8DC11 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		43FFAC3B24DAC48B00C8DC11 /* SmallTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableCell.swift; sourceTree = "<group>"; };
+		43FFAC3D24DAC4C600C8DC11 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		43FFAC3F24DAC4ED00C8DC11 /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
+		43FFAC4124DAC53E00C8DC11 /* MediumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTableCell.swift; sourceTree = "<group>"; };
+		43FFAC4324DAC56E00C8DC11 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		43FFAC4524DAC59000C8DC11 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		5DFED36A7FFACB6A339901E0 /* Pods-AR HIreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR HIreApp.release.xcconfig"; path = "Target Support Files/Pods-AR HIreApp/Pods-AR HIreApp.release.xcconfig"; sourceTree = "<group>"; };
 		DF94ABA288D2479805DB8EBA /* Pods-AR HIreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR HIreApp.debug.xcconfig"; path = "Target Support Files/Pods-AR HIreApp/Pods-AR HIreApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F2319796CDD32066198C8B5C /* Pods_AR_HIreApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_HIreApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +114,7 @@
 				431694F524D4A8A600674FA2 /* View */,
 				431694E824D4A46D00674FA2 /* Assets.xcassets */,
 				431694EA24D4A46D00674FA2 /* LaunchScreen.storyboard */,
+				43FFAC3524DAC34F00C8DC11 /* discover.json */,
 				431694ED24D4A46D00674FA2 /* Info.plist */,
 				4316950124D4AF0F00674FA2 /* GoogleService-Info.plist */,
 				431694E524D4A46B00674FA2 /* AR_HIreApp.xcdatamodeld */,
@@ -107,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				431694F424D4A88F00674FA2 /* LoginAndSignUp */,
-				431694FA24D4A95300674FA2 /* HomeViewController.swift */,
+				43FFAC3424DAC25200C8DC11 /* DiscoverPage */,
 				431694FC24D4A98B00674FA2 /* MainTabBarController.swift */,
 			);
 			path = Controller;
@@ -145,6 +164,22 @@
 				4316950424D4B10900674FA2 /* video.mp4 */,
 			);
 			path = Media;
+			sourceTree = "<group>";
+		};
+		43FFAC3424DAC25200C8DC11 /* DiscoverPage */ = {
+			isa = PBXGroup;
+			children = (
+				431694FA24D4A95300674FA2 /* DiscoverViewController.swift */,
+				43FFAC3924DAC44300C8DC11 /* Section.swift */,
+				43FFAC3724DAC40C00C8DC11 /* SectionHeader.swift */,
+				43FFAC4124DAC53E00C8DC11 /* MediumTableCell.swift */,
+				43FFAC3B24DAC48B00C8DC11 /* SmallTableCell.swift */,
+				43FFAC3F24DAC4ED00C8DC11 /* FeaturedCell.swift */,
+				43FFAC3D24DAC4C600C8DC11 /* Person.swift */,
+				43FFAC4324DAC56E00C8DC11 /* SelfConfiguringCell.swift */,
+				43FFAC4524DAC59000C8DC11 /* Bundle-Decodable.swift */,
+			);
+			path = DiscoverPage;
 			sourceTree = "<group>";
 		};
 		4B397120710A992BF9FC4D25 /* Frameworks */ = {
@@ -216,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				431694EC24D4A46D00674FA2 /* LaunchScreen.storyboard in Resources */,
+				43FFAC3624DAC34F00C8DC11 /* discover.json in Resources */,
 				4316950524D4B10900674FA2 /* video.mp4 in Resources */,
 				431694E924D4A46D00674FA2 /* Assets.xcassets in Resources */,
 				431694E424D4A46B00674FA2 /* Main.storyboard in Resources */,
@@ -272,14 +308,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FFAC3824DAC40C00C8DC11 /* SectionHeader.swift in Sources */,
 				431694F924D4A90B00674FA2 /* LoginViewController.swift in Sources */,
 				431694E124D4A46B00674FA2 /* ViewController.swift in Sources */,
 				431694FD24D4A98B00674FA2 /* MainTabBarController.swift in Sources */,
+				43FFAC3A24DAC44300C8DC11 /* Section.swift in Sources */,
 				431694F724D4A8EB00674FA2 /* RegisterViewController.swift in Sources */,
+				43FFAC4624DAC59000C8DC11 /* Bundle-Decodable.swift in Sources */,
 				431694DD24D4A46B00674FA2 /* AppDelegate.swift in Sources */,
 				431694E724D4A46B00674FA2 /* AR_HIreApp.xcdatamodeld in Sources */,
+				43FFAC3C24DAC48B00C8DC11 /* SmallTableCell.swift in Sources */,
+				43FFAC4424DAC56E00C8DC11 /* SelfConfiguringCell.swift in Sources */,
 				431694FF24D4AA6200674FA2 /* Utilities.swift in Sources */,
-				431694FB24D4A95300674FA2 /* HomeViewController.swift in Sources */,
+				43FFAC3E24DAC4C600C8DC11 /* Person.swift in Sources */,
+				43FFAC4024DAC4ED00C8DC11 /* FeaturedCell.swift in Sources */,
+				43FFAC4224DAC53E00C8DC11 /* MediumTableCell.swift in Sources */,
+				431694FB24D4A95300674FA2 /* DiscoverViewController.swift in Sources */,
 				431694DF24D4A46B00674FA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
