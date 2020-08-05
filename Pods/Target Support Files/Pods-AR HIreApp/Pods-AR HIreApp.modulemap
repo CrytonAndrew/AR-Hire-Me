@@ -1,0 +1,6 @@
+framework module Pods_AR_HIreApp {
+  umbrella header "Pods-AR HIreApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
